@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Kanit|Prompt';
+
 body {
     margin: 0;
     padding: 0;
@@ -108,6 +110,7 @@ body {
     margin-top: -510px;
     margin-left: 350px;
     width: 300px;
+    height: 180px;
 }
 
 .inputbox {
@@ -120,12 +123,14 @@ body {
     border-radius: 5px;
 }
 
-#submitbtn {
+.submitbtn {
+    position: fixed;
     color: #fff;
     background-color: #00a8ff;
-    margin: 10px 5px;;
-    width: 287px;
-    height: 35px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 15px;
+    padding: 5px 86px;
     font-family: 'Prompt';
     font-weight: bold;
     border: solid #00a8ff 3px;
@@ -133,7 +138,7 @@ body {
     cursor: pointer;
 }
 
-#submitbtn:hover {
+.submitbtn:hover {
     color: #00a8ff;
     background-color: #fff;
     transition: 0.3s ease;

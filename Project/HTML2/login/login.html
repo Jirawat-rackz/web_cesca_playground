@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Login</title>
     <link rel="stylesheet" href="login-style.css">
+    <link rel="icon" href="../CESCaLOGO.png" type="image/png">
 </head>
 <body>
     <div class="headder">
@@ -25,8 +26,8 @@
         <div class="loginform">
             <form id="formsubmit">
                 <input id="username101" class="inputbox" type="username" placeholder="Username" required>
-                <input class="inputbox" type="password" placeholder="Password" required>
-                <button type="submit" id="submitbtn">Click To Login</button>
+                <input id="password101" class="inputbox" type="password" placeholder="Password" required> <br>
+                <a class="submitbtn" type="submit" value="Login" target="_parent" onclick="buttonClicked(); return false;">Click To Login</a>
             </form>
         </div>
     </div>

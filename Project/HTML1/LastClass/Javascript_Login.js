@@ -1,5 +1,5 @@
 <script>
-    document.getElementById("Comment").addEventListener("click", buttonclicked)
+    document.getElementById("Comment").addEventListener("click", buttonclicked);
 
     function buttonclicked()
     {
