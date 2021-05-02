@@ -1,1 +1,4 @@
-#head{font-size: xx-large;text-align: center;background-color: khaki;border-style: dashed;}
+#head{font-size: xx-large;text-align: center;background-color:#f6c094;border-style: dashed;color: #733938;}
+.font{text-align: center;color: #733938;font-size: x-large;}
+.big{text-align: center;color: #733938;font-size: x-large;font-weight: bold;}
+#pic{text-align: center;}
