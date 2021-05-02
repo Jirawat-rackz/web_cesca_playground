@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Space Class | LOGIN</title>
+        <style>
+            .span
+                {
+                    color:rgb(42, 42, 190);
+                    text-align: center;
+                    font-weight: bolder;
+                    background-color: rgb(255, 191, 191);
+                }
+                
+            .ChangeTextColors
+                {
+                    text-align: center;
+                    animation: keyframe_Text 0.5s ease-in-out infinite;
+                }
+            @keyframes keyframe_Text {
+                0%, 100% {
+                    color :aquamarine;
+                }
+                20% {
+                    color:aqua;
+                }
+                40%{
+                    color:deepskyblue;
+                }
+                60% {
+                    color:dodgerblue;
+                }
+                80% {
+                    color:lightskyblue;
+                }
+            }
+        #bgbox
+        {
+            width: 600px;
+            height: 340px;
+            background-color: #77acf1;
+            border: 10px solid #344fa1;
+            position: static;
+            border-radius: 25px;
+        }
+        #btm
+        {
+            position: fixed;
+            bottom: 0px;    
+        }
+        .button {
+            background-color: #fff;
+            border: none;
+            color: #fff;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            color: black;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            border-radius: 25px;
+        }
+        .button1 {
+            background-color: #fff;
+            color: black;
+            border: 2px solid #344fa1;
+        }
+        .button1:hover {
+            background-color: #344fa1;
+            color: #fff;
+        }
+        .FontSize
+        {
+            font-size: 25px;
+        }
+        .myvideo {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            min-height: 100%;
+            min-width: 100%;
+            overflow: hidden;
+            z-index: -100;
+        }
+        .Front
+        {
+            z-index: 2;
+        }
+        @font-face {
+            font-family: 'IBMPlexSansThai-Medium';
+            src: url('fonts/IBMPlexSansThai/IBMPlexSansThai-Medium.woff2') format('woff2'),
+            url('fonts/IBMPlexSansThai/IBMPlexSansThai-Medium.woff') format('woff'),
+            url('fonts/IBMPlexSansThai/IBMPlexSansThai-Medium.eot') format('eot');
+            font-weight: normal;
+            font-style: normal;
+        }
+        .fontText
+        {
+            font-family: 'IBMPlexSansThai-Medium';
+        }
+        
+        </style>
+    </head>
+    <body class="fontText">
+        <br><br><center><div class="Front"><div><a href="https://www.facebook.com/CESCa.KKU"><img src="logo space class.png" width=200, height=200></a><br>
+        <br><form id="bgbox">
+        <br><br><label class="FontSize">Username : </label>
+        <input class="button" id="FirstName" type="text" placeholder="Username" required><br><br>
+        <label class="FontSize"  >Password : </label>
+        <input class="button" id="PassWord" type="password" placeholder="Password" required><br><br>
+        <a class="button button1" type="submit" value="Login" onclick="InputButton(); return false;">Login</a>
+    </form>
+    <a href="https://www.facebook.com/CESCa.KKU"><img src="facebook.png" width="150", height="150"></a>
+    <a href="https://www.kku.ac.th/"><img src="KKU.png" width="150", height="150" style="margin-bottom: 30px;"></a>
+    <a href="https://www.youtube.com/channel/UCmMusmK6oIlLCsLB22NLePA"><img src="Youtube.png"width="150", height="150"></a></div> 
+    <div><video autoplay muted loop class="myvideo">
+        <source src="Starry Night Time Lapse.mp4" type="video/mp4">
+    </video></div>
+    </center>    
+    <script>
+        function InputButton() 
+        {
+            var fname = document.getElementById("FirstName").value;
+            var pword = document.getElementById("PassWord").value;
+            if(fname && pword)
+            {
+                window.alert("ยินดีต้อนรับ " + fname);
+                window.location="../classroom.html";
+            }
+        }
+    </script>
+    </body>
+</html>
+
