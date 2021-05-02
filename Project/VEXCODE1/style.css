@@ -1,0 +1,35 @@
+.Yellow{
+    color:white;
+    font-size: x-large;
+}
+#Center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+.Aqua{
+    color:indigo;
+    font-size: 300%;
+    font-weight: bolder;
+    font-family: comic sans ms;
+}
+.Bold{
+    font-weight: bolder;
+    font-size: large;
+}
+.right {
+    position:absolute;
+    right: 225px;
+}
+.left {
+    position:absolute;
+    left: 300px;
+}
+.Aqua1{
+    color:indigo;
+    font-size: 300%;
+    font-weight: bolder;
+    font-family: comic sans ms;
+    margin-top: 50px;
+}
