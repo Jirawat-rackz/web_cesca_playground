@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600&display=swap");
+
+
+@font-face {
+    font-family: 'IBMPlexSansThai-ExtraLight';
+    src: url('../fonts/IBMPlexSansThai/IBMPlexSansThai-ExtraLight.woff2') format('woff2'),
+        url('../fonts/IBMPlexSansThai/IBMPlexSansThai-ExtraLight.woff') format('woff'),
+        url('../fonts/IBMPlexSansThai/IBMPlexSansThai-ExtraLight.eot') format('eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBMPlexSansThai-Regular';
+    src: url('../fonts/IBMPlexSansThai/IBMPlexSansThai-Regular.woff2') format('woff2'),
+        url('../fonts/IBMPlexSansThai/IBMPlexSansThai-Regular.woff') format('woff'),
+        url('../fonts/IBMPlexSansThai/IBMPlexSansThai-Regular.eot') format('eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBMPlexSansThai-Medium';
+    src: url('../fonts/IBMPlexSansThai/IBMPlexSansThai-Medium.woff2') format('woff2'),
+        url('../fonts/IBMPlexSansThai/IBMPlexSansThai-Medium.woff') format('woff'),
+        url('../fonts/IBMPlexSansThai/IBMPlexSansThai-Medium.eot') format('eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IBMPlexSansThai-Bold';
+    src: url('../fonts/IBMPlexSansThai/IBMPlexSansThai-Bold.woff2') format('woff2'),
+        url('../fonts/IBMPlexSansThai/IBMPlexSansThai-Bold.woff') format('woff'),
+        url('../fonts/IBMPlexSansThai/IBMPlexSansThai-Bold.eot') format('eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{ 
+    margin: 0;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #333;
+	overflow-x: hidden;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-toggler {
+        display: none;
+    }
+}
+
+.nav-link {
+    font-family: 'IBMPlexSansThai-Medium';
+    font-size: 18px;
+}
+
+.nav-item a:hover {
+    color: rgb(209, 100, 100) !important;
+    cursor: pointer;
+}
+
+.nav-item > .active {
+    color: rgb(149, 245, 237) !important;
+}
+
+.nav-item {
+    padding-left: .2rem;
+    padding-right: 1rem;
+}
+
+
+.video-header{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.wrap{
+    max-width: 960px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+}
+
+.fullscreen-video-wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.fullscreen-video-wrap video{
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.header-overlay{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(34,33,33,0.65);
+    opacity: 0.80;
+}
+
+.header-content{
+    z-index: 2;
+    margin-top:20%;
+    padding: 0 5rem;
+}
+
+.header-content h1{
+    font-family: 'IBMPlexSansThai-Bold';
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.header-content p{
+    font-family: 'IBMPlexSansThai-Medium';
+    font-size: 1.5rem;
+    display: block;
+    padding-bottom: 2rem;
+    margin-top: 10px;
+}
+
+.my-btn{
+    font-family: 'IBMPlexSansThai-Bold';
+    padding: 1rem 1rem;
+}
+
+/* @media (max-width:768px) {
+    .header-content h1{
+        font-size: 40px;
+    }
+    .header-content p{
+        font-size: 1rem;
+    }
+} */
+
+@media only screen and (max-width: 991px) {
+    .header-content {
+        margin-top: 300px;
+    }
+}
+
+section{
+    text-align: center; 
+    margin-top: 50px; 
+    font-size: 1.5rem;
+}
+
+.navbar{
+    z-index: 10;
+}
+
+.my-nav .nav-link{
+    color: rgb(255, 255, 255);
+}
+
+.my-nav .navbar-brand{
+    color: rgb(255, 255, 255);
+}
+
+.navbar-toggler-icon{
+    color: rgb(255, 255, 255);
+}
+
+.page-header {
+    height: 600px;
+    background-image: url(../img/bgclassroom.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.page-header2 {
+    height: 600px;
+    background-image: url(../img/bgassignment.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.page-header3 {
+    height: 600px;
+    background-image: url(../img/bgaboutus.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.head h1, h2 {
+    font-family: 'IBMPlexSansThai-Bold';
+    z-index: 5;
+}
+
+.head p {
+    font-family: 'IBMPlexSansThai-Medium';
+    font-size: 1.5rem;
+}
+
+hr.new5 {
+    border: 30px solid #344fa1;
+}
+
+.cre {
+    font-family: 'IBMPlexSansThai-Medium';
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
