@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    font-family: 'FC Palette';
+    font-size: 22pt;
+    color: rgba(39, 1, 43, 0.411);
+    background-image: url('BG2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+div {
+    /* padding: 20px 80px; */
+    margin: auto;
+    position:absolute;
+    bottom: 0px;
+    right: 610px;
+}
