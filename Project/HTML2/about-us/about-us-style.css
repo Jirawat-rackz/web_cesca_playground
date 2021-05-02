@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.headder {
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgb(149, 149, 149);
+    position: relative;
+    z-index: 5;
+    
+}
+
+.nav-bar {
+    display: flex;
+    width: 1000px;
+    height: 50px;
+    margin: 0px auto;
+    font-family: 'Prompt';
+    justify-content: space-between;
+}
+
+#p-name {
+    margin: 0;
+    font-size: 16px;
+    padding-top: 9px;
+    padding-right: 242.5px;
+    font-weight: normal;
+    justify-content: left;
+    line-height: 16px;
+}
+
+
+#Logo001 {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    margin-left: 30px;
+}
+
+.nav-link {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.nav-link li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+#homebtn a {
+    color: #fff;
+    background-color: #00a8ff;
+    border: #00a8ff 1px;
+    border-radius: 5px;
+}
+
+#homebtn a:hover {
+    color: #00a8ff;
+    background-color:#fff;
+    transition: 0.3s ease;
+}
+
+.nav-link li a {
+    padding: 0px 5px;
+    text-decoration: none;
+    font-size: 15pt;
+    color: #00a8ff;
+    background-color: #fff;
+    border: #fff 1px;
+}
+
+.nav-link li a:hover{
+    color: #fff;
+    background-color: #00a8ff;
+    border: #00a8ff 1px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#login01 {
+    padding: 0px 20px;
+    margin: 8px 10px;
+    margin-right: 50px;
+    text-align: right;
+    color: #fff;
+    background-color: #00a8ff;
+    border: solid #00a8ff;
+    border-radius: 5px;
+    font-size: 15pt;
+    text-decoration: none;
+}
+
+#login01:hover {
+    color: #00a8ff;
+    background-color:#fff;
+    transition: 0.3s ease;
+}
+
+.MAIN {
+    width: 1000px;
+    margin: auto;
+}
+
+.aboutus-bg {
+    position: relative;
+}
+
+#aboutus-bg {
+    width: 1000px;
+    height: 2100px;
+    position: relative;
+    z-index: 1;   
+}
+
+.infomain {
+    padding: 10px;
+    width: 750px;
+    position: relative;
+    z-index: 4;
+    margin-top: -2030px;
+    margin-left: 116px;
+    font-family: 'Prompt';
+    font-size: 15pt;
+}
+
+#infoheader {
+    text-align: center;
+    margin: 0px;
+}
+
+.infopj {
+    display: flex;
+    margin: 10px 0px;
+}
+
+.pfinfo {
+    margin: 20px 30px;
+    width: 150px;
+    height: 150px;
+}
+
+.listinfo {
+    margin-top: 5px;
+    padding-left: 20px;
+    width: 500px ;
+    height: 150px;
+}
+
+.lineblue {
+    margin: 0px auto;
+    width: 700px;
+    height: 2px;
+    background-color: #00a8ff;
+    border-radius: 5px;
+}

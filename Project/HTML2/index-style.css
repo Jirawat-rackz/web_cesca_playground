@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.headder {
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgb(149, 149, 149);
+    position: relative;
+    z-index: 5;
+    
+}
+
+.nav-bar {
+    display: flex;
+    width: 1000px;
+    height: 50px;
+    margin: 0px auto;
+    font-family: 'Prompt';
+    justify-content: space-between;
+}
+
+#p-name {
+    margin: 0;
+    font-size: 15px;
+    padding-top: 3px;
+    padding-right: 200px;
+    font-weight: normal;
+    justify-content: left;
+}
+
+
+#Logo001 {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    margin-left: 30px;
+}
+
+.nav-link {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.nav-link li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.nav-link li a {
+    padding: 0px 5px;
+    text-decoration: none;
+    font-size: 15pt;
+    color: #00a8ff;
+    background-color: #fff;
+    border: #fff 1px;
+}
+
+.nav-link li a:hover{
+    color: #fff;
+    background-color: #00a8ff;
+    border: #00a8ff 1px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+#login01 {
+    padding: 0px 20px;
+    margin: 8px 10px;
+    margin-right: 50px;
+    text-align: right;
+    color: #fff;
+    background-color: #00a8ff;
+    border: solid #00a8ff;
+    border-radius: 5px;
+    font-size: 15pt;
+    text-decoration: none;
+}
+
+#login01:hover {
+    color: #00a8ff;
+    background-color:#fff;
+    transition: 0.3s ease;
+}
+
+.MAIN {
+    width: 1000px;
+    margin: auto;
+}
+
+#index-bg {
+    width: 1000px;
+    height: 900px;
+    position: relative;
+    z-index: 4;
+}
+
+.welcome-message{
+    width: 365px;
+    height: 170px;
+    position: relative;
+    z-index: 6;
+    margin-top: -765px;
+    margin-left: 320px;
+    font-family: 'Prompt';
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.welcome-message p {
+    margin-left: 15px;
+    font-size: 16pt;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.link-login {
+    width: 500px;
+    height: 70px;
+    margin: 100px auto;
+    text-align: center;
+    position: relative;
+    z-index: 7;
+}
+
+.link-login a {
+    width: 200px;
+    height: 70px;
+    padding: 10px 40px;
+    text-align: center;
+    position: relative;
+    background-color: #1a55e0;
+    border: solid #1a55e0 5px;
+    border-radius: 5px;
+    z-index: 7;
+    font-family: 'Prompt';
+    font-size: 25pt;
+    font-weight: 600;
+    color: #fff;
+    box-shadow: 2px 2px 5px rgb(119, 119, 119);
+}
+
+.link-login a:hover {
+    color: #1a55e0;
+    background-color: rgba(255, 255, 2555, .7);
+    transition: 0.3s ease;
+}
